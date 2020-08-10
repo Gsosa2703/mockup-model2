@@ -178,7 +178,7 @@
     color: #55415f;
 }
 
-.container-cards p {
+.parrafo-card {
     font-family: Georgia;
   font-size: 13px;
   font-weight: normal;
@@ -200,4 +200,49 @@
   letter-spacing: normal;
   text-align: center;
   color: #222222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-card-2{
+    width: 225px;
+  height: 140px;
+}
+
+.card-title-2{
+    font-family: Georgia;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7f7d77;
+}
+
+.parrafo-card-2{
+    font-family: Georgia;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  text-align: left;
+  color: #807d77;
+}
+
+.container-cards-img button{
+    background-color: white;
+    border: none;
+    font-family: Georgia;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #55415f;
 }
