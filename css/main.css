@@ -1,35 +1,157 @@
 :root {
-    --color-purple :#55415f;
+    --color-purple: #55415f;
+}
+
+.padding-mockup {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
-.login{
+.login {
     background-color: var(--color-purple);
     height: 30px;
-    
+
 
 }
 
 .login li {
     height: 11px;
     font-family: Georgia;
-  font-size: 11px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.18;
-  letter-spacing: normal;
-  text-align: left;
-  border-right: solid 1px white;
-  padding-left: 5px;
-  padding-right: 5px;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    border-right: solid 1px white;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.login li:last-child{
+.login li:last-child {
     border-right: none;
 }
 
 .login li a {
-text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*NAV BAR */
+
+
+.nav-bar-title {
+    width: 173px;
+    height: 26px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.navbar {
+    height: 150px;
+}
+
+.navbar li {
+    border-bottom: solid 2px rgb(236, 238, 240);
+}
+
+.navbar li:hover {
+    border-bottom: solid 2px var(--color-purple);
+}
+
+.navbar a {
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.navbar a:hover {
+    color: var(--color-purple)
+}
+
+/*CONTAINER TV */
+.container-tv {
+    height: 380px;
+    background-color: #ebebeb;
+}
+
+.btn {
+    background-color: var(--color-purple);
+
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.container-tv h1 {
+    height: 27px;
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333
+}
+
+.container-tv p {
+    width: 379px;
+    height: 82px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+}
+
+.tv {
+    width: 428px;
+    height: 290px;
+    background-color: #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-inside {
+    width: 388px;
+    height: 250px;
+    background-color: #353535;
+}
+
+.tv-base {
+    width: 428px;
+    height: 44px;
+    background-image: linear-gradient(to top, #837b7b, #a9a39f, #bfbbb7, #cccbc6, #dcded9);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
