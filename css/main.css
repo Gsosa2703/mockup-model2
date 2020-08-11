@@ -130,7 +130,10 @@
     text-align: left;
     color: #999999;
 }
+.container-tv button{
+    padding: 10px;
 
+}
 .tv {
     width: 428px;
     height: 290px;
@@ -145,7 +148,9 @@
 .tv-inside {
     width: 388px;
     height: 250px;
-    background-color: #353535;
+    background-image: url("../assets/anna-field.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tv-base {
@@ -163,6 +168,9 @@
     width: 64px;
     height: 64px;
     text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-title{
@@ -176,6 +184,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #55415f;
+    margin-top: 15px;
 }
 
 .parrafo-card {
@@ -222,6 +231,7 @@
 }
 
 .parrafo-card-2{
+    width: 225px;
     font-family: Georgia;
   font-size: 13px;
   font-weight: normal;
@@ -250,7 +260,6 @@
 /*FOOTER*/
 
 .footer{
-    height: 274px;
   background-color: #222222;
 }
 
@@ -324,14 +333,19 @@
 }
 
 .newsletter input {
+    width: 100%;
     background-color: #353535;
     border-radius: 5px;
     border: none;
 }
 
+.newsletter button {
+    background-color: #8f4a89;
+
+}
+
 .copyright{
     height: 60px;
-    background-color: #202020;
     border-top: solid 1px #363636;
 }
 .copyright p{
@@ -345,3 +359,21 @@
     text-align: left;
     color: #807d77;
 }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 5px;
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #353535;
+    color: #807d77;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
